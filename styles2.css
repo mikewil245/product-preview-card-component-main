@@ -1,0 +1,68 @@
+/* Typeography*/
+span {
+  font-family: var(--montserrat);
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 5px;
+  color: var(--DarkGrayishBlue);
+}
+
+h1 {
+  color: var(--VeryDarkBlue);
+  font-family: var(--Fraunces);
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1; /* 100% */
+}
+
+p {
+  font-family: var(--montserrat);
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.7;
+  color: var(--DarkGrayishBlue);
+}
+
+.new-price {
+  font-family: var(--Fraunces);
+  color: var(--Darkcyan);
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.2; /* 100% */
+}
+
+.old-price {
+  color: var(--DarkGrayishBlue);
+  font-family: var(--montserrat);
+  font-size: 0.813rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2; /* 176.923% */
+  text-decoration-line: line-through;
+}
+
+a {
+  background-color: var(--Darkcyan);
+  display: block;
+  text-decoration: none;
+  max-width: 295px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  padding: 15px 30px;
+  border-radius: 10px;
+}
+
+.button-text {
+  color: #fff;
+  font-size: 0.875rem;
+  font-family: var(--montserrat);
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}

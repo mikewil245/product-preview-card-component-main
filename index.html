@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles2.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>Frontend Mentor | Product preview card component</title>
+  </head>
+  <body>
+    <main>
+      <picture>
+        <!-- Source element for desktop screens (minimum width: 1024px) -->
+        <source
+          srcset="images/image-product-desktop.jpg"
+          media="(min-width: 600px)"
+        />
+
+        <!-- Source element for mobile screens (maximum width: 1023px) -->
+        <source
+          srcset="images/image-product-mobile.jpg"
+          media="(max-width: 599px)"
+        />
+
+        <!-- Fallback image for browsers that do not support the <picture> element -->
+        <img
+          src="images/image-product-desktop.jpg"
+          alt="Description of the image"
+        />
+      </picture>
+      <div class="product-content">
+        <span>PERFUME</span>
+        <h1>Gabrielle Essence Eau De Parfum</h1>
+        <p>
+          A floral, solar and voluptuous interpretation composed by Olivier
+          Polge, Perfumer-Creator for the House of CHANEL.
+        </p>
+        <div class="pricing">
+          <div class="new-price">$149.99</div>
+          <div class="old-price">$169.99</div>
+        </div>
+        <a href="/">
+          <div>
+            <img
+              class="expensive-cart"
+              src="images/icon-cart.svg"
+              alt="shopping-cart"
+            />
+          </div>
+          <div class="button-text">Add to cart</div>
+        </a>
+      </div>
+    </main>
+  </body>
+</html>
+
+<!-- Feel free to remove these styles or customise in your own stylesheet 
+   
+<div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> 
+    
+     <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+    👍 -->
